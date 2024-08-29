@@ -5,7 +5,7 @@ sources:
     database: mcdm-433814
     tables:
       - name: src_ads_bing_all_data
-        loaded_at_field: 
+        loaded_at_field: __insert_date
         freshness:
           warn_after: {count: 1000, period: day}
           error_after: {count: 1000, period: day}
