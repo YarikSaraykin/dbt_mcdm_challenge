@@ -2,7 +2,7 @@ select
 
     cast(ad_id as string) as ad_id,
 
-    ad_to_cart,
+    add_to_cart,
 
     cast(adgroup_id as string) as adset_id,
 
@@ -22,7 +22,7 @@ select
 
     impressions,
 
-    rt_installs + scan_app_install as installs,
+    rt_installs + skan_app_install as installs,
 
     cast(null as int64) as likes,
 
@@ -46,7 +46,7 @@ select
 
     spend,
 
-    conversions + skan_conversions as total_conversions,
+    conversions + skan_conversion as total_conversions,
 
     video_views
 
