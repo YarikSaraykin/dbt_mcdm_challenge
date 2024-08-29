@@ -36,3 +36,7 @@ models:
     # Applies to all files under models/example/
     staging:
       materialized: view
+    unification:
+      materialized: view
+    metrics:
+      materialized: table
