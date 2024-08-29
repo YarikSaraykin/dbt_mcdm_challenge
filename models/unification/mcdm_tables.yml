@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbt_ysaraykin
+    database: mcdm-analytics
+    tables:
+      - name: stg_ads_bing_all_data
+      - name: stg_ads_creative_facebook_all_data
+      - name: stg_ads_tiktok_ads_all_data
+      - name: stg_promoted_tweets_twitter_all_data
