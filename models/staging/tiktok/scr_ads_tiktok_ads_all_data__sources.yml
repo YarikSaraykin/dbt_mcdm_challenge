@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: dbt_ysaraykin
+    database: mcdm-433814
+    tables:
+      - name: src_ads_tiktok_ads_all_data
