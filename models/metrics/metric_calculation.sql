@@ -1,5 +1,3 @@
-
-
 select 
 
     channel,
@@ -8,7 +6,7 @@ select
     sum(impressions) as impressions,
     sum(spend) / sum(clicks) as CPC
 
-from  {{ ref('unification') }}
+from  {{ ref('merging_sources') }}
 
 group by channel
 
