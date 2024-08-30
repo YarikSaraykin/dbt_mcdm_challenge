@@ -1,4 +1,3 @@
-
 select *
 from {{ source('dbt_ysaraykin', 'stg_ads_bing_all_data') }}
 union all
@@ -13,4 +12,3 @@ union all
 
 select *
 from {{ source('dbt_ysaraykin', 'stg_promoted_tweets_twitter_all_data') }}
-
