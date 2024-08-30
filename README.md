@@ -12,7 +12,7 @@
 
 Link to the recreated dashboard: https://lookerstudio.google.com/reporting/2ecfca6f-03aa-4e4e-9614-582c052b88b1
 
-### How to add data from new data platforms:
+### How to add data from new ad platforms:
 -   Create a folder with a new source name in the 'models/staging'
 -   Create a query that brings data from a new source to the basic data structure corresponding to the mcdm_paid_ads_basic_performance_structure (call it 'new_source stg query')
 -   Modify unification/merging_sources.sql by adding union with the 'new_source stg query'
