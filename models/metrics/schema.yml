@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: metric_calculation
+    description: "calculating the set of metrics for business analysis"
+    columns:
+      - name: channel
+        description: "Channel of ad"
+      - name: conversion_cost
+        description: "How many does single conversion cost for any channel"
+      - name: engagement_cost
+        description: "How many does single engagement of user cost for any channel"
+      - name: impressions
+        description: "How many impressions were executed for each channel"
+      - name: CPC
+        description: "How many does single user click cost"
