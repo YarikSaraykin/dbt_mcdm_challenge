@@ -3,6 +3,9 @@ version: 2
 models:
   - name: stg_ads_bing_all_data
     description: "Raw data of the bing ads source"
+    columns:
+      - name: ad_id
+        description: "The primary key"
 
 sources:
   - name: dbt_ysaraykin

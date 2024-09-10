@@ -6,6 +6,8 @@ models:
     columns:
       - name: channel
         description: "Channel of ad"
+        tests:
+          - not_null
       - name: conversion_cost
         description: "How many does single conversion cost for any channel"
       - name: engagement_cost
