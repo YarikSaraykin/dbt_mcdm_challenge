@@ -1,7 +1,12 @@
 version: 2
 
+models:
+  - name: stg_ads_bing_all_data
+    description: "Raw data of the bing ads source"
+
 sources:
   - name: dbt_ysaraykin
     database: mcdm-433814
+    schema: dbt_ysaraykin
     tables:
       - name: src_ads_bing_all_data

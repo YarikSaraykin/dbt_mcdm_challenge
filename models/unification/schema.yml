@@ -1,8 +1,13 @@
 version: 2
 
+models:
+  - name: mcdm_tables
+    description: "Merging all information from ads sources in the unified form"
+
 sources:
-  - name: dbt_ysaraykin
+  - name: staging
     database: mcdm-analytics
+    schema: staging
     tables:
       - name: stg_ads_bing_all_data
       - name: stg_ads_creative_facebook_all_data
